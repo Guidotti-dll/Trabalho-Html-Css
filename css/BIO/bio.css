@@ -1,0 +1,131 @@
+main {
+    width: 100%;
+    height: 2070px;
+    display: var(--flex);
+    justify-content: var(--center);
+}
+
+main .container-bio {
+    width: 90%;
+    height: 100%;
+    margin-top: 65px;
+}
+
+main .container-bio .title {
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.0);
+    display: var(--flex);
+    justify-content: var(--flex-start);
+    align-items: var(--center);
+    font-family: 'Livvic', sans-serif;
+    font-size: 35pt;
+    color: #3F3F3F;
+    padding: 30px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+main .container-bio .bio-lefth {
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: var(--flex);
+    justify-content: var(--espaço-entre);
+    align-items: var(--center);
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 0 20px 30px -16px rgba(9, 9, 16, .1);
+}
+
+main .container-bio .bio-lefth .foto {
+    height: 80%;
+    width: 200px;
+    margin-left: 100px;
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+}
+
+main .container-bio .bio-lefth .sobre {
+    width: 700px;
+    height: 80%;
+    margin-right: 100px;
+    font-family: 'Livvic', sans-serif;
+    color: #252525;
+}
+
+main .container-bio .bio-lefth .foto .avatar {
+    width: 90%;
+    height: 90%;
+    border-radius: 100%;
+    box-shadow: 0 20px 30px -16px rgba(9, 9, 9, .3);
+    background-size: cover;
+    background-position: center;
+}
+
+main .container-bio .bio-right {
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: var(--flex);
+    justify-content: var(--espaço-entre);
+    align-items: var(--center);
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 0 20px 30px -16px rgba(9, 9, 16, .1);
+}
+
+main .container-bio .bio-right .foto {
+    height: 80%;
+    width: 200px;
+    margin-right: 100px;
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+}
+
+main .container-bio .bio-right .sobre {
+    width: 700px;
+    height: 80%;
+    margin-left: 100px;
+    font-family: 'Livvic', sans-serif;
+    color: #3F3F3F;
+}
+
+main .container-bio .bio-right .foto .avatar {
+    width: 90%;
+    height: 90%;
+    border-radius: 100%;
+    box-shadow: 0 20px 30px -16px rgba(9, 9, 9, .3);
+    background-size: cover;
+    background-position: center;
+}
+
+#lucas {
+    background-image: url("../../img/HEADER/guidotti.jpg");
+}
+
+#magon {
+    background-image: url("../../img/HEADER/magon.jpeg");
+}
+
+#carrilhos {
+    background-image: url("../../img/HEADER/carrilhos.jpeg");
+}
+
+#juan {
+    background-image: url("../../img/HEADER/juan.jpeg");
+}
+
+#bruno {
+    background-image: url("../../img/HEADER/bruno.jpeg");
+}
+
+#arthur {
+    background-image: url("../../img/HEADER/arthur.jpeg");
+}
+
+#dint {
+    background-image: url("../../img/HEADER/dint.jpeg");
+}

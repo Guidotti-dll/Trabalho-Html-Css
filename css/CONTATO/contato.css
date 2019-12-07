@@ -1,0 +1,46 @@
+main {
+    width: 100%;
+    height: 1000px;
+    display: var(--flex);
+    justify-content: var(--center);
+    padding-bottom: 56px;
+}
+
+main .container-contato {
+    width: 90%;
+    height: 100%;
+    margin-top: 65px;
+    /*background-color: blue;*/
+    font-family: 'Livvic', sans-serif;
+    color: #3F3F3F;
+}
+
+main .container-contato fieldset {
+    box-shadow: black 1px 1px;
+}
+
+main .container-contato .title {
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.0);
+    display: var(--flex);
+    justify-content: var(--flex-start);
+    align-items: var(--center);
+    font-family: 'Livvic', sans-serif;
+    font-size: 35pt;
+    color: #3F3F3F;
+    padding: 30px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+main .container-contato fieldset form textarea {
+    background-color: #c0c0c0;
+    border: black solid;
+    border-radius: 3px;
+}
+
+main .container-contato fieldset form input.text {
+    box-shadow: black 1px 1px;
+    border-radius: 3px;
+}
